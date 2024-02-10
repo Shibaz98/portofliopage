@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding: 0;  
+}
+
+
+/* NAV BAR SECTION */ 
+
+.logo{
+    height: 23px;
+    width: 25px;
+    padding-right: 15px; 
+    display: inline-block;
+    padding-left: 15px;
+}
+
+nav{
+    display: flex;
+    padding: 10px;
+    background-color: black;
+    font-family: 'Lato', sans-serif; 
+    
+    
+}
+
+.name{
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    font-family: 'Lato', sans-serif; 
+    color: #FFF;
+    
+}
+
+.nav_bar{
+    display: flex;
+    
+}
+
+.nav_bar li{
+    padding: 15px;
+    list-style-type: none;
+    font-size: 14px;
+    color: #FFF;
+    
+}
+
+/*/ INTRO SECTION /*/ 
+
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(./Resources/background.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    height: 650px;
+}
+
+.intro_overlay{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 650px;
+}
+
+.intro_content{
+    text-align: center;
+    padding: 150px;
+    margin-top: 100px;
+    
+    
+}
+
+.intro_content h1{
+    font-size: 60px;
+    margin-bottom: 25px;
+    font-family: 'Lato', sans-serif; 
+    font-weight:300;
+    letter-spacing: 3px;
+    color: #FFF;
+}
+
+.intro_content p{
+    margin-top: 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+}
+
+/* ABOUT ME SECTION */ 
+
+.about{
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    padding:90px 0px 100px;
+}
+
+.about_container{
+    text-align: center;
+}
+
+.about_container h1{
+    margin-bottom: 30px;
+    font-family: 'Lato', sans-serif; 
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+#profile-pic{
+    width:170px; 
+    height: auto;
+    border-radius: 30%;
+    
+}
+
+.about_container p{
+    margin-top: 15px; 
+    width: 700px; 
+    height: auto;
+    font-family:'Roboto Slab', serif; 
+    font-weight: 200;
+    line-height: 1.7;
+}
+
